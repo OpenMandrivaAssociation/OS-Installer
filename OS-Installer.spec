@@ -42,4 +42,13 @@ Allows defining of optional additional software to be installed.
 %install
 %meson_install
 
-%files
+%find_lang %{name}
+
+%files -f %{name}.lang
+%{_bindir}/os-installer
+%{_datadir}/appdata/com.github.p3732.OS-Installer.appdata.xml
+%{_datadir}/applications/com.github.p3732.OS-Installer.desktop
+%{_datadir}/glib-2.0/schemas/com.github.p3732.OS-Installer.gschema.xml
+%{_datadir}/icons/hicolor/scalable/apps/com.github.p3732.OS-Installer.svg
+%{_datadir}/icons/hicolor/symbolic/apps/com.github.p3732.OS-Installer-symbolic.svg
+%{_datadir}/os-installer/
