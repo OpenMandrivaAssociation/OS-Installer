@@ -15,6 +15,8 @@ BuildRequires: pkgconfig(gtk4)
 BuildRequires: pkgconfig(gweather4)
 BuildRequires: pkgconfig(libadwaita-1)
 BuildRequires: pkgconfig(vte-2.91-gtk4)
+BuildRequires: python-gi
+BuildRequires: python-gobject3
 BuildRequires: gettext
 
 Requires: gtk4
