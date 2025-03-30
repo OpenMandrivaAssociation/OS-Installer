@@ -7,6 +7,7 @@ License:        GPL-3.0
 URL:            https://gitlab.gnome.org/p3732/os-installer/
 Source0:        https://gitlab.gnome.org/p3732/os-installer/-/archive/%{version}/os-installer-%{version}.tar.bz2
 
+BuildRequires: pkgconfig(blueprint-compiler)
 BuildRequires: pkgconfig(gio-2.0)
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(gnome-desktop-4)
