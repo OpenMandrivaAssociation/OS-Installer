@@ -1,3 +1,4 @@
+%undefine _debugsource_packages
 Name:           os-installer
 Version:        0.4.3
 Release:        1
