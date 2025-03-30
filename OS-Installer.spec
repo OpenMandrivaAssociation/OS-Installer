@@ -12,6 +12,7 @@ BuildRequires: pkgconfig(blueprint-compiler)
 BuildRequires: pkgconfig(gio-2.0)
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(gnome-desktop-4)
+BuildRequires: pkgconfig(gobject-introspection-1.0)
 BuildRequires: pkgconfig(gtk4)
 BuildRequires: pkgconfig(gweather4)
 BuildRequires: pkgconfig(libadwaita-1)
@@ -24,6 +25,7 @@ Requires: gtk4
 Requires: gnome-disk-utility
 Requires: gnome-control-center
 Requires: systemd
+
 
 #epiphany
 
